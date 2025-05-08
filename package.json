@@ -1,0 +1,20 @@
+{
+    "name": "trainer-central-sdk",
+    "version": "1.0.0",
+    "description": "Trainer Central React Native SDK",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react-native",
+      "trainer-central",
+      "sdk"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": ">=16.8.0",
+      "react-native": ">=0.60.0"
+    }
+  }
