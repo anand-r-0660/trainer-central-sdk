@@ -14,7 +14,10 @@
     "author": "Your Name",
     "license": "MIT",
     "peerDependencies": {
-      "react": ">=16.8.0",
-      "react-native": ">=0.60.0"
-    }
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0"
   }
+  }
+
+
+ 
