@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'trainer-central-sdk'
-  s.version          = '1.0.3' # or your latest tag
+  s.version          = '1.0.4'
   s.summary          = 'Trainer Central React Native SDK'
   s.description      = <<-DESC
 A React Native SDK for Trainer Central integration.
@@ -12,7 +12,22 @@ A React Native SDK for Trainer Central integration.
   s.platform         = :ios, '10.0'
   s.source_files     = 'ios/TrainerCentralSDK/*.{h,m}'
   
-  # Specify exact versions for React dependencies
-  s.dependency       'React-Core', '0.73.4'
-  s.dependency       'React', '0.73.4'
+  # Remove the React dependency and only use React-Core
+  s.dependency 'React-Core', '~> 0.73.4'
+  
+  # Add React Native dependencies with explicit versions
+  s.dependency 'React-RCTActionSheet', '~> 0.73.4'
+  s.dependency 'React-RCTAnimation', '~> 0.73.4'
+  s.dependency 'React-RCTBlob', '~> 0.73.4'
+  s.dependency 'React-RCTImage', '~> 0.73.4'
+  s.dependency 'React-RCTLinking', '~> 0.73.4'
+  s.dependency 'React-RCTNetwork', '~> 0.73.4'
+  s.dependency 'React-RCTSettings', '~> 0.73.4'
+  s.dependency 'React-RCTText', '~> 0.73.4'
+  s.dependency 'React-RCTVibration', '~> 0.73.4'
+  
+  # Add this to ensure React is installed from the correct source
+  s.pod_target_xcconfig = {
+    'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/React"'
+  }
 end
