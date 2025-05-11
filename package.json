@@ -1,6 +1,6 @@
 {
   "name": "trainer-central-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Trainer Central React Native SDK",
   "main": "index.js",
   "scripts": {
