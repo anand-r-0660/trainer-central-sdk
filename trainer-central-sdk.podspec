@@ -11,6 +11,8 @@ A React Native SDK for Trainer Central integration.
   s.source           = { :git => 'https://github.com/anand-r-0660/trainer-central-sdk.git', :tag => s.version }
   s.platform         = :ios, '10.0'
   s.source_files     = 'ios/TrainerCentralSDK/*.{h,m}'
-  s.dependency       'React-Core'
-  s.dependency       'React'
+  
+  # Specify exact versions for React dependencies
+  s.dependency       'React-Core', '0.73.4'
+  s.dependency       'React', '0.73.4'
 end
