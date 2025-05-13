@@ -13,10 +13,8 @@ A React Native SDK for Trainer Central integration.
   s.source_files     = 'ios/TrainerCentralSDK/*.{h,m}'
   
   # Specify React Native version explicitly
-  s.dependency 'React-Core', '0.73.4'
-  
-  # Add React Native dependencies with explicit versions
-  s.dependency 'React-RCTActionSheet', '0.73.4'
+  s.dependency 'React-Core', '0.72.6'
+s.dependency 'React-RCTActionSheet', '0.72.6'
   s.dependency 'React-RCTAnimation', '0.73.4'
   s.dependency 'React-RCTBlob', '0.73.4'
   s.dependency 'React-RCTImage', '0.73.4'
