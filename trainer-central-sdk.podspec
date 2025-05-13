@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'trainer-central-sdk'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'Trainer Central React Native SDK'
   s.description      = <<-DESC
 A React Native SDK for Trainer Central integration.
